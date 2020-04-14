@@ -1,0 +1,565 @@
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-05 19:46:19	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-05 19:46:20	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-05 19:46:20	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-05 19:46:20	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-05 19:46:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-05 19:46:22	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-05 19:46:23	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-05 19:46:49	Crawl url:http://testphp.vulnweb.com/artists.php?artist=1,depth:2
+2020-04-05 19:46:54	Crawl url:http://testphp.vulnweb.com/listproducts.php?cat=1,depth:2
+2020-04-05 19:47:00	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-05 19:48:42	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-05 19:48:42	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-05 19:48:42	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-05 19:48:42	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-05 19:48:44	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-05 19:48:46	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-05 19:48:47	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-05 19:48:47	Http error:timed out	url:http://testphp.vulnweb.com/index.php
+2020-04-05 19:49:23	Crawl url:http://testphp.vulnweb.com/artists.php?artist=1,depth:2
+2020-04-05 19:49:31	Crawl url:http://testphp.vulnweb.com/listproducts.php?cat=1,depth:2
+2020-04-05 19:49:44	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+2020-04-05 19:50:04	Crawl url:http://testphp.vulnweb.com/listproducts.php?artist=1,depth:3
+2020-04-05 19:51:03	Crawl url:http://testphp.vulnweb.com/product.php?pic=6,depth:4
+2020-04-05 19:52:52	Crawl url:http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160,depth:3
+2020-04-05 19:52:57	Crawl url:http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg,depth:4
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-05 20:02:30	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-05 20:02:30	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-05 20:02:31	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-05 20:02:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-05 20:02:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-05 20:02:33	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-05 20:02:36	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-05 20:02:37	Http error:timed out	url:http://testphp.vulnweb.com/cart.php
+2020-04-05 20:03:13	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+2020-04-05 20:03:55	Crawl url:http://testphp.vulnweb.com/artists.php?artist=1,depth:2
+2020-04-05 20:04:01	Http error:timed out	url:http://testphp.vulnweb.com/artists.php?artist=1
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 10:03:16	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 10:03:17	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 10:03:18	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 10:03:20	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 10:03:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 10:03:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-07 10:03:23	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 11:19:41	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 11:19:42	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 11:19:42	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 11:19:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 11:19:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 11:19:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-07 11:19:44	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-07 11:20:05	Crawl url:http://testphp.vulnweb.com/artists.php?artist=1,depth:2
+2020-04-07 11:20:05	Crawl url:http://testphp.vulnweb.com/listproducts.php?cat=1,depth:2
+2020-04-07 11:20:11	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+2020-04-07 11:20:11	Http error:HTTP Error 502: No data received from server or forwarder	url:http://testphp.vulnweb.com?pp=12
+2020-04-07 11:20:30	Crawl url:http://testphp.vulnweb.com/listproducts.php?artist=1,depth:3
+2020-04-07 11:20:54	Crawl url:http://testphp.vulnweb.com/product.php?pic=6,depth:4
+2020-04-07 11:21:37	Crawl url:http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160,depth:3
+2020-04-07 11:21:50	Crawl url:http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg,depth:4
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:11:13	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:14:42	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:14:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:14:43	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:14:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 13:14:43	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 13:14:44	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-07 13:14:45	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:15:16	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:15:17	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:15:17	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:15:18	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 13:15:18	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:15:47	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:15:48	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:15:48	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:15:49	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 13:15:49	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:16:26	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:16:27	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:16:27	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:16:28	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 13:16:28	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:17:30	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:17:31	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:17:31	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:17:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 13:17:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-07 13:17:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 13:17:33	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-07 13:28:25	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-07 13:28:25	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-07 13:28:25	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-07 13:28:25	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-07 13:28:26	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-07 13:28:26	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-07 13:28:48	Crawl url:http://testphp.vulnweb.com/listproducts.php?cat=1,depth:2
+2020-04-07 13:28:48	Crawl url:http://testphp.vulnweb.com/artists.php?artist=1,depth:2
+2020-04-07 13:28:53	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-07 13:28:54	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+2020-04-07 13:28:55	Http error:HTTP Error 502: No data received from server or forwarder	url:http://testphp.vulnweb.com?pp=12
+2020-04-07 13:29:11	Crawl url:http://testphp.vulnweb.com/listproducts.php?artist=1,depth:3
+2020-04-07 13:29:35	Crawl url:http://testphp.vulnweb.com/product.php?pic=6,depth:4
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-08 12:54:41	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-08 12:54:42	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-08 12:54:42	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:02:25	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-08 14:02:26	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-08 14:02:26	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-08 14:02:26	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-08 14:02:27	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:04:23	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:04:23	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-08 14:04:36	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 14:04:36	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-08 14:04:36	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-08 14:04:37	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-08 14:04:37	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-08 14:04:37	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-08 14:04:38	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:05:33	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 14:05:33	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-08 14:05:33	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:05:33	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 14:05:33	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-08 14:05:34	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-08 14:05:35	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-08 14:05:36	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-08 14:06:48	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-08 14:06:49	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-08 14:06:49	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-08 14:06:50	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-08 14:07:21	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-08 14:07:21	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-08 14:07:22	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-08 14:07:22	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-08 14:07:52	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-08 14:07:53	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-08 14:07:53	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-08 14:07:53	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-08 14:07:54	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+2020-04-08 14:08:17	Crawl url:http://testphp.vulnweb.com/artists.php?artist=2,depth:2
+2020-04-08 14:08:23	Crawl url:http://testphp.vulnweb.com?pp=12,depth:2
+2020-04-08 14:08:24	Http error:HTTP Error 502: No data received from server or forwarder	url:http://testphp.vulnweb.com?pp=12
+2020-04-08 14:08:24	Crawl url:http://testphp.vulnweb.com/listproducts.php?cat=4,depth:2
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 12:20:02	Http error:<urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>	url:http://testphp.vulnweb.com
+2020-04-12 12:20:02	Http error:<urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>	url:http://testphp.vulnweb.com
+[-] All crawl finish...
+2020-04-12 12:20:04	Http error:<urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>	url:http://testphp.vulnweb.com
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 12:20:31	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 12:20:31	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 12:20:31	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 12:20:32	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 12:31:06	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 12:31:06	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 12:31:06	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 12:31:07	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 12:31:07	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-12 12:31:07	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+[-] All crawl finish...
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 14:41:28	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 14:41:29	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 14:41:29	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 14:41:30	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 14:41:31	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 14:45:43	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 14:45:44	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 14:45:44	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 14:45:45	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 14:58:19	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 14:58:19	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 14:58:19	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 14:58:19	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 14:58:19	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 14:58:20	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 14:58:20	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 14:58:20	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 14:58:20	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 14:58:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 14:58:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-12 14:58:21	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 14:58:21	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 14:58:22	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 14:58:22	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 14:58:22	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 14:58:22	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 14:58:22	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 14:58:24	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 15:51:14	Crawl url:http://testphp.vulnweb.com/search.php?test=query,depth:1
+2020-04-12 15:51:14	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 15:51:15	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 15:51:15	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 15:51:15	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 15:51:16	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 15:51:16	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 15:51:17	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 15:51:17	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 15:51:17	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 15:51:17	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 15:51:18	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-12 15:51:18	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 15:56:06	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 15:56:06	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 15:56:07	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 15:56:07	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 15:56:07	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+2020-04-12 15:56:09	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:10:13	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 17:26:06	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 17:26:06	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+2020-04-12 17:26:06	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 17:26:06	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 17:26:08	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:26:20	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 17:26:21	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/guestbook.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 17:26:49	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 17:26:49	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 17:26:49	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+2020-04-12 17:26:50	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/login.php,depth:1
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/mod_rewrite_shop/,depth:1
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 17:27:07	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 17:27:07	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 17:27:07	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/mod_rewrite_shop/
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:27:55	Crawl url:http://testphp.vulnweb.com/ajax/index.php,depth:1
+2020-04-12 17:27:56	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/ajax/index.php
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:28:07	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 17:28:07	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 17:28:07	Crawl url:http://testphp.vulnweb.com/disclaimer.php,depth:1
+2020-04-12 17:28:07	Crawl url:http://testphp.vulnweb.com/cart.php,depth:1
+2020-04-12 17:28:08	Crawl url:http://testphp.vulnweb.com/index.php,depth:1
+2020-04-12 17:28:08	Crawl url:http://testphp.vulnweb.com/flash/add.swf,depth:1
+2020-04-12 17:28:09	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/flash/add.swf
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:29:26	Crawl url:http://testphp.vulnweb.com/userinfo.php,depth:1
+2020-04-12 17:29:26	Crawl url:http://testphp.vulnweb.com/privacy.php,depth:1
+2020-04-12 17:29:26	Http error:HTTP Error 404: Not Found	url:http://testphp.vulnweb.com/privacy.php
+2020-04-12 17:29:27	Crawl url:http://testphp.vulnweb.com/categories.php,depth:1
+2020-04-12 17:29:27	Crawl url:http://testphp.vulnweb.com/artists.php,depth:1
+2020-04-12 17:29:28	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
+2020-04-12 17:29:28	Crawl url:http://testphp.vulnweb.com/signup.php,depth:2
+2020-04-12 17:29:29	Crawl url:http://testphp.vulnweb.com/secured/newuser.php,depth:3
+[+] start scan target http://testphp.vulnweb.com...
+2020-04-12 17:29:55	Crawl url:http://testphp.vulnweb.com/hpp/,depth:1
