@@ -19,8 +19,6 @@ def handlerAdaptor(fun, **kwds):
 
 
 def a(path):
-    start = time.time()
-    gettime(start)
     with open(path, 'r') as f:
         content = f.read().splitlines()
     thread_it(vulscan_P, content, int(threads.get()), int(depth.get()), "sql", output, open("log.txt", 'a'),waf)
@@ -71,6 +69,9 @@ def thread_it(func, *args):
     t = threading.Thread(target=func, args=args)
     t.setDaemon(True)
     t.start()
+    start = time.time()
+    gettime(start)
+    progress()
     return t
 
 def progress():
