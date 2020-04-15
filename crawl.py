@@ -92,7 +92,7 @@ class SpiderThread(threading.Thread):
 		for i in range(len(new_url_list)):
 			if self.url_similar_check(new_url_list[i]):
 				print(get_ctime() + '\tCrawl url:' + new_url_list[i])
-				vul_module.vul_module(new_url_list[i],self.logfile).check(self.module, self.output,1)
+				vul_module.vul_module(new_url_list[i],self.logfile).check(self.module, self.output,self.waf)
 				if self.waf.cget("text") == "WAF:None":
 					self.waf.config(text=detect_waf.check_waf(new_url_list[i]))
 				self.logfile.write(get_ctime() + '\tCrawl url:' + new_url_list[i] + ',depth:' + str(depth) + '\n')

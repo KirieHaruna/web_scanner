@@ -16,7 +16,7 @@ def vulscan_P(target1,thread_num,depth,module,output,logfile,waf):
 
 		QUEUE.append([0,target])
 		TOTAL_URL.add(target)
-		SpiderThread(target, [0,target],logfile,module,output).start()
+		SpiderThread(target, [0,target],logfile,module,output,waf).start()
 		quit_flag = 0
 		while(quit_flag == 0):
 			while True:
