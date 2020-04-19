@@ -13,6 +13,8 @@ import chardet
 import tkinter as tk
 import detect_waf
 
+
+
 from config import *
 
 

