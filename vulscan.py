@@ -12,6 +12,7 @@ def vulscan_P(target1,thread_num,depth,module,output,logfile,waf):
 	for target in target1:
 		print("[+] start scan target " + target + '...' + '\n')
 		logfile.write("[+] start scan target " + target + '...' + '\n')
+		output.insert("", "end", values=(target, "", "", "",""))
 		i = 1
 
 		QUEUE.append([0,target])
@@ -42,10 +43,13 @@ def vulscan_P(target1,thread_num,depth,module,output,logfile,waf):
 						SpiderThread(target, deep_url, logfile, module,output).start()
 						break
 				except Exception as e:
-					# self.logfile.write( '\tError:' + str(e) + '\n')
-					# self.logfile.flush()
 					time.sleep(1)
-					pass
+					i += 1
+					if i <= 20:
+						pass
+					else:
+						break
+
 
 
 

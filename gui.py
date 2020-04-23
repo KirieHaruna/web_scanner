@@ -33,31 +33,33 @@ def save_file():
                                                      filetypes=(("word", "*.docx"), ("All Files", "*.*")))
     document = Document()
     children = output.get_children("")
-    document.add_heading(u'Result of web scan: ' + output.item(children[0], "values")[0], 3)
+    document.add_heading(u'Result of web scan: ' + output.item(children[0], "values")[0], 1)
     p_total = document.add_heading()
     r_total = p_total.add_run("")
     r_total.font.bold = True
-    table = document.add_table(rows=1, cols=3, style="Light List Accent 5")
+    table = document.add_table(rows=len(children), cols=5, style="Light List Accent 5")
     hdr_cells = table.rows[0].cells
     hdr_cells[0].text = 'Url'
     hdr_cells[1].text = 'Payload'
     hdr_cells[2].text = 'Injectbale'
     hdr_cells[3].text = 'CVSS'
+    hdr_cells[4].text = 'Parameter'
     i = 0
     for child in children:
-        if i == 0:
-            i = i + 1
-            continue
+        # if i == 0:
+        #     i = i + 1
+        #     continue
         row_cells = table.add_row().cells
         row_cells[0].text = output.item(child, "values")[0]
         row_cells[1].text = output.item(child, "values")[1]
         row_cells[2].text = output.item(child, "values")[2]
-        hdr_cells[3].text = output.item(child, "values")[3]
+        row_cells[3].text = output.item(child, "values")[3]
+        row_cells[4].text = output.item(child, "values")[4]
     document.save(file_path)
 
 
 def thread(func, *args):
-    output.insert("", "end", values=(url.get(), "", "", ""))
+    output.insert("", "end", values=(url.get(), "", "", "",""))
     t = threading.Thread(target=func, args=args)
     t.setDaemon(True)
     t.start()
@@ -81,7 +83,7 @@ def progress():
     x = 500
     n = float(465 / x)
     for i in range(x):
-        if threading.activeCount() <= 2:
+        if threading.activeCount() < 2:
             canvas.coords(fill_line, (0, 0, 466, 60))
             break
         n = n + float(465) / 500
@@ -96,7 +98,7 @@ def gettime(start):
     seconds = int(elap)
     hseconds = int((elap - minutes * 60.0 - seconds) * 1000)
     var.set(seconds)
-    if threading.activeCount() > 2:
+    if threading.activeCount() >= 2:
         root.after(1, gettime, start)
 
 
@@ -310,4 +312,5 @@ canvas = tk.Canvas(root, width=465, height=22, bg="white")
 canvas.place(x=90, y=60)
 payload = tk.Button(root, text="Payloads", command=payloads)
 payload.place(x=730, y=60, height=25)
+# output.insert("", "end", values=("1", " +1", "yes", "High","asda"))
 root.mainloop()

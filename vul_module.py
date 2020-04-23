@@ -309,7 +309,7 @@ class vul_module(threading.Thread):
                     res_md5_1 = res_md5_2 = res_md5_3 = 0
                     pass
                 if (res_DOM_1 == res_DOM_3 and res_DOM_1 != res_DOM_2) or ((res_md5_1 == res_md5_3) and res_md5_1 != res_md5_2):
-                    return p0 + "," + self.url
+                    return p0 + "~" + self.url
         return 0
 
     def Sql_error_scan(self):
@@ -494,8 +494,8 @@ class vul_module(threading.Thread):
                     mysql.insert(i+"","+1","yes","High",self.url[self.url.find("?")+1:self.url.find("=")])
                     print(get_ctime() + '\t' + self.url + ":SQL injection!")
                 elif j:
-                    output.insert("", "end", values=(j.split(",")[1], j.split(",")[0], "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
-                    mysql.insert(j.split(",")[1] , j.split(",")[0], "yes", "High", self.url[self.url.find("?") + 1:self.url.find("=")])
+                    output.insert("", "end", values=(j.split("~")[1], j.split("~")[0], "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
+                    mysql.insert(j.split("~")[1] , j.split("~")[0], "yes", "High", self.url[self.url.find("?") + 1:self.url.find("=")])
                     print(get_ctime() + '\t' + self.url + ":SQL injection!")
                 elif k:
                     output.insert("", "end", values=(k, "\'", "yes", "High",self.url[self.url.find("?")+1:self.url.find("=")]))
