@@ -34,6 +34,18 @@ def save_file():
     document = Document()
     children = output.get_children("")
     document.add_heading(u'Result of web scan: ' + output.item(children[0], "values")[0], 1)
+    i = 0
+    for child in children:
+        if output.item(child, "values")[3] != "":
+            i = 1
+            break
+    if i == 1:
+        document.add_heading(u'Security Level : Vulnerable, SQLi detected!', 2)
+    else:
+        document.add_heading(u'Security Level : Good, no SQLi detected!', 2)
+
+    document.add_heading(u'Start time: '+time.asctime(time.localtime(s))+", end time: "+time.asctime(time.localtime(time.time())), 2)
+
     p_total = document.add_heading()
     r_total = p_total.add_run("")
     r_total.font.bold = True
@@ -44,7 +56,6 @@ def save_file():
     hdr_cells[2].text = 'Injectbale'
     hdr_cells[3].text = 'CVSS'
     hdr_cells[4].text = 'Parameter'
-    i = 0
     for child in children:
         # if i == 0:
         #     i = i + 1
@@ -64,6 +75,7 @@ def thread(func, *args):
     t.setDaemon(True)
     t.start()
     start = time.time()
+    s = start
     gettime(start)
     progress()
 
@@ -73,6 +85,7 @@ def thread_it(func, *args):
     t.setDaemon(True)
     t.start()
     start = time.time()
+    s = start
     gettime(start)
     progress()
     return t
@@ -255,6 +268,7 @@ def view():
                       "String Based SQL Injection:\n Content page with string input in URL. \n name parameter is prone to code injection.")
 
 
+s = time.time()
 r = []
 for j in range(20):
     r.append(random.randint(0, 85))
